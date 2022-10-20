@@ -1,0 +1,435 @@
+.header{width: 100%;
+	vertical-align: middle;
+	text-align: center;
+	padding: 0 0 0 0;
+	background-color: #fac100;
+}
+
+header h1{font-size: 125px;
+	font-weight: bold;
+	color: #201d16;
+	padding-bottom: 0px;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+a {
+	text-decoration: none;
+}
+
+.head1{
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+	width: 100%;
+	height: 300px;
+}
+
+.nimi{
+	flex: 0 1 auto;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.nupud{
+	flex: 0 1 auto;
+	width: 100px;
+	height: 100px;
+	margin-left: auto;
+	margin-top: 50px;
+	margin-right: 75px;
+}
+
+button{
+	width: 120px;
+	height: 50px;
+	margin-bottom: 5px;
+	padding: 10px;
+	border-radius: 25%;
+	text-align: center;
+}
+
+#login{
+	color: #ffffff;
+	background-color: #000000;
+	font-size: 20px;
+}
+
+#signup{
+	border: #ffffff;
+	font-size: 20px;
+}
+
+.header nav ul{display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	text-align: center;
+    width: fit-content;
+}
+
+.header nav ul li{display: inline-block;
+	padding: 0px 350px 20px 350px;
+}
+
+.header nav ul li a{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+	font-weight: bold;
+    color: #000000;
+	text-decoration: none;
+}
+@media only screen and (max-width: 1400px){
+	.header nav{
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right; auto;
+	}
+	.header nav ul{display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	line-height: 1.5;
+	position: relative;
+	}
+	.header nav ul li a{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+	font-weight: bold;
+    color: #000000;
+	text-decoration: none;
+	}
+
+}
+header img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+.head-tekst{
+	height: 300px%;
+}
+
+.banner{
+	position: relative;
+}
+
+.tekst{
+	font-family: Arial, sans-serif;
+	position: absolute;
+	top: 100px;
+	right: 300px;
+	font-size: 25px;
+	
+}
+
+@media only screen and (max-width: 1400px){
+.tekst{
+	font-family: Arial, sans-serif;
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	font-size: 20px;
+}
+}
+.pakkumine-h1{
+	font-family: Arial, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+    color: #00000;
+	padding-top: 30px;
+	padding-left: 30px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.pakkumine {
+	margin: 60px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-bottom: 60px;
+}
+
+.pilt{
+	position: relative;
+	margin-top: 80px;	
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+.pilt img{
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}   
+  
+.pilt p{
+	font-family: Arial, sans-serif;
+    font-weight: normal;
+    font-size: 45px;
+	position: absolute;
+    bottom: 90%;
+	left: 50%;
+	color: #000000;
+    transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+@media only screen and (max-width: 1400px){
+	.container {
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 30px;
+	}
+	
+	.pakkumine {
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	}
+	
+	.pilt p{
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-size: 35px;
+	position: absolute;
+	bottom: 90%;
+	left: 50%;
+	color: #000000;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	}
+}
+
+.internalcontainerL{
+	font-family: Arial, sans-serif;
+}
+
+.rectangle{
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+}
+
+footer{
+	width: 100%;
+	height: 426px;
+	bottom: 0;
+	left: 0;
+    margin-top: -42px;
+	background-color: #fac100;
+}
+
+footer h2{
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+	font-weight: normal;
+    color: #000000;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 60px;
+	line-height: 0.5;
+}
+
+div.kontaktid{
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	color: #000000;
+	line-height: 1;
+	margin-left: 200px;
+	position: relative;
+	float: left;
+}
+
+div.jalus-pilt{
+	height: 300px;
+	padding-right: 170px;
+	margin-top: 0px;
+	float: right;
+}
+
+div.jalus-pilt img{
+	height: 300px;
+	width: auto;
+}
+	
+@media only screen and (max-width: 1400px){
+	footer{
+	width: 100%;
+	height: 300px;
+	bottom: 0;
+	left: 0;
+    margin-top: -42px;
+	background-color: #fac100;
+	}
+	
+	div.kontaktid{
+	font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: #000000;
+	line-height: 1;
+	margin-left: 75px;
+	position: relative;
+	float: left;
+	}
+	
+	footer h2{
+    font-family: Arial, sans-serif;
+    font-size: 50px;
+	font-weight: normal;
+    color: #000000;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 50px;
+	line-height: 0.3;
+	}
+	
+	div.jalus-pilt{
+	display: none;
+	}
+
+	div.jalus-pilt img{
+	display: none;
+	}
+}
+* {
+	box-sizing: border-box;
+  }
+
+
+.rectangle{
+	width: 350px;
+	height: 100px;
+	background: #fac100;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin:auto;
+    
+}
+
+.rectangle1{
+	padding-top: 80px;
+    padding-bottom: 300px;
+}
+
+.rectangle a{
+	color: #000000;
+}
+
+div.jalus-pealis{
+	display: flex;
+	justify-content: center;
+}
+.jalus-pealis img{
+	margin-top: -255px
+}
+
+.holdingcontainer{
+    max-width: 100%;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+
+  .internalcontainerL{
+    flex: 0.5;
+    padding: 30px;
+    text-align: center;
+    margin: 3px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  .internalcontainerR{
+    flex: 0.5;
+    padding: 20px;
+    margin: 3px;
+    max-width: 100%;
+    
+    
+  }
+
+@media screen and (max-width: 1000px){
+    .holdingcontainer{
+    flex-direction: column-reverse;
+    }
+	.jalus-pealis img{
+	display: none;
+	}
+  }
+
+  .väliskast{
+    max-width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: row;
+  }
+
+  .sisekastL{
+    flex: 1;
+    padding-bottom: 40px;
+    margin-right: 200px;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 100%; 
+  }
+
+
+  .sisekastR{
+    flex: 1;
+    margin: 3px;
+    max-width: 100%;
+    padding-right: 300px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+
+    
+  }
+
+
+
+@media screen and (max-width: 1400px){
+    .väliskast{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+	padding:0;
+    margin-bottom: 80px
+    }
+    .sisekastL{
+    margin-left: auto;
+    margin-right: auto;
+    padding:0;
+    }
+    .sisekastR{
+    margin-left: auto;
+	margin-right: auto;
+    display: ;
+    padding:0;
+    width: 70%;
+
+    }
+
+  }
